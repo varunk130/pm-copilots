@@ -1,6 +1,8 @@
-# ⚡ AI PM Agents - Specialized
+# 🧠 PM Copilots
 
-**Three specialized AI agents that automate the most time-consuming parts of product management — stakeholder communication, strategic decision-making, and financial modeling — in seconds instead of hours.**
+**Your AI co-pilots for product management — translate updates for any audience, make data-backed decisions, and build financial models in seconds, not hours.**
+
+Three purpose-built agents that handle the grunt work so you can focus on strategy: a **Stakeholder Translator**, a **Decision Engine**, and a **Financial Analyst**.
 
 
 > **⚠️ Disclaimer:** All data in this project is entirely synthetic and mock-generated for demonstration purposes. Customer names, company names, financial figures, market data, and all agent outputs are fictional. No real customer data, proprietary information, or actual business metrics were used.
@@ -117,13 +119,13 @@ Each agent is available as a standalone Claude Code skill:
 
 ```bash
 # Clone and copy all skills
-git clone https://github.com/varunk130/ai-pm-agents-specialized.git
-cp -r ai-pm-agents-specialized/skills/* ~/.claude/skills/
+git clone https://github.com/varunk130/pm-copilots.git
+cp -r pm-copilots/skills/* ~/.claude/skills/
 
 # Or copy individual skills
-cp -r ai-pm-agents-specialized/skills/stakeholder-translator ~/.claude/skills/
-cp -r ai-pm-agents-specialized/skills/decision-engine ~/.claude/skills/
-cp -r ai-pm-agents-specialized/skills/financial-analyst ~/.claude/skills/
+cp -r pm-copilots/skills/stakeholder-translator ~/.claude/skills/
+cp -r pm-copilots/skills/decision-engine ~/.claude/skills/
+cp -r pm-copilots/skills/financial-analyst ~/.claude/skills/
 ```
 
 Restart Claude Code after copying. Use via slash commands or natural language.
@@ -143,7 +145,7 @@ Restart Claude Code after copying. Use via slash commands or natural language.
 ## Skills Structure
 
 ```
-ai-pm-agents-specialized/
+pm-copilots/
 ├── README.md
 ├── screenshots/
 │   ├── ai-pm-dashboard.png
