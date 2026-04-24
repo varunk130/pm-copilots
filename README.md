@@ -161,7 +161,12 @@ pm-copilots/
         └── SKILL.md
 ```
 
+## License
+
+MIT — see [LICENSE](LICENSE) for details.
+
 ---
+
 
 <p align="center">
   <strong>Built by Varun Kulkarni</strong><br/>
