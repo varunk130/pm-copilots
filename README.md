@@ -2,7 +2,7 @@
 
 **Your AI co-pilots for product management — translate updates for any audience, make data-backed decisions, and build financial models in seconds, not hours.**
 
-Three purpose-built agents that handle the grunt work so you can focus on strategy: a **Stakeholder Translator**, a **Decision Engine**, and a **Financial Analyst**.
+Three purpose-built agents that handle the grunt work so you can focus on strategy: a **Stakeholder Translator**, a **Decision Engine**, and a **Financial Analyst** — each designed to compress hours of work into seconds.
 
 
 > **⚠️ Disclaimer:** All data in this project is entirely synthetic and mock-generated for demonstration purposes. Customer names, company names, financial figures, market data, and all agent outputs are fictional. No real customer data, proprietary information, or actual business metrics were used.
