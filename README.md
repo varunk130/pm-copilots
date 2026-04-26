@@ -38,7 +38,7 @@ Three purpose-built agents that handle the grunt work so you can focus on strate
 
 ## Why This Exists
 
-Product managers spend a disproportionate amount of time on communication translation, decision structuring, and financial justification — not on the strategic thinking itself. A single product update requires five different versions for five different audiences. A prioritization decision requires manually applying three or four frameworks. A feature business case requires hours of spreadsheet modeling.
+Product managers spend a disproportionate amount of time on communication translation, decision structuring, and financial justification — not on the strategic thinking itself. A single product update requires five different versions, one per audience. A prioritization decision requires manually applying three or four frameworks. A feature business case requires hours of spreadsheet modeling.
 
 This project demonstrates how **purpose-built AI agents** — each with a distinct cognitive role — can compress these workflows:
 
