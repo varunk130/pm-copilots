@@ -2,6 +2,9 @@
 
 **Your AI co-pilots for product management — translate updates for any audience, make data-backed decisions, and build financial models in seconds, not hours.**
 
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white)](https://claude.ai/code)
+[![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-24292e?logo=github&logoColor=white)](https://github.com/features/copilot)
+
 Three purpose-built agents that handle the grunt work so you can focus on strategy: a **Stakeholder Translator**, a **Decision Engine**, and a **Financial Analyst** — each designed to compress hours of work into seconds.
 
 
