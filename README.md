@@ -1,11 +1,11 @@
 # 🧠 PM Copilots
 
-**Your AI co-pilots for product management — translate updates for any audience, make data-backed decisions, and build financial models in seconds, not hours.**
+**Your AI co-pilots for product management — translate updates for any audience, make data-backed decisions, build financial models, and sequence them into a credible roadmap, in seconds, not hours.**
 
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white)](https://claude.ai/code)
 [![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-24292e?logo=github&logoColor=white)](https://github.com/features/copilot)
 
-Three purpose-built agents that handle the grunt work so you can focus on strategy: a **Stakeholder Translator**, a **Decision Engine**, and a **Financial Analyst** — each designed to compress hours of work into seconds, with consistent structure and reusable templates.
+Four purpose-built agents that handle the grunt work so you can focus on strategy: a **Stakeholder Translator**, a **Decision Engine**, a **Financial Analyst**, and a **Roadmap Architect** — each designed to compress hours of work into seconds, with consistent structure and reusable templates.
 
 
 > **⚠️ Disclaimer:** All data in this project is entirely synthetic and mock-generated for demonstration purposes. Customer names, company names, financial figures, market data, and all agent outputs are fictional. No real customer data, proprietary information, or actual business metrics were used.
@@ -55,7 +55,7 @@ Each agent doesn't just generate text — it applies structured reasoning: sensi
 
 ---
 
-## The Three Agents
+## The Four Agents
 
 ### 1. Stakeholder Translator
 
@@ -116,6 +116,41 @@ Builds rigorous financial models from natural language inputs. Fills gaps with S
 
 ---
 
+### 4. Roadmap Architect
+
+**Cognitive function: Sequencing & Capacity Planning**
+
+Takes a set of prioritized initiatives and turns them into a credible quarterly plan: themes, dependency graph, capacity check, and an explicit commit-vs-stretch split with confidence bands. Designed to run *after* the Decision Engine and *before* the Stakeholder Translator — it answers the middle question: in what order, against what capacity, with what trade-offs.
+
+| Output | Description |
+|--------|-------------|
+| Theme Map | 3–5 strategic themes with a one-sentence "why now" for each |
+| Sequenced Plan | Initiatives placed into Now / Next / Later with rationale |
+| Dependency Graph | Hard, soft, and reverse dependencies with risk callouts |
+| Capacity Check | Effort vs. team capacity with explicit overcommit / slack flags |
+| Commit vs. Stretch | Confidence bands on committed scope; stretch goals named, not snuck in |
+| Narrative One-Pager | Stakeholder-ready summary: bets, trade-offs, what we're *not* doing |
+
+**Demo scenarios:** Quarterly planning across 10+ initiatives, mid-quarter resequencing after slips, board-readout roadmap narrative.
+
+→ **[View Skill Definition](skills/roadmap-architect/SKILL.md)**
+
+---
+
+## How the Agents Compose
+
+The four agents are designed to chain into a single planning loop:
+
+```
+Financial Analyst   →   Decision Engine   →   Roadmap Architect   →   Stakeholder Translator
+   (is it worth         (which of these         (in what order,        (tell each audience
+    building?)           do we do?)              against capacity?)     in their language)
+```
+
+You can use any agent standalone, but feeding the output of one into the next is where the compounding leverage shows up — a financial model becomes a decision becomes a sequenced plan becomes five tailored communications, with traceability at every hop.
+
+---
+
 ## Installation (Claude Code Skills)
 
 Each agent is available as a standalone Claude Code skill:
@@ -129,6 +164,7 @@ cp -r pm-copilots/skills/* ~/.claude/skills/
 cp -r pm-copilots/skills/stakeholder-translator ~/.claude/skills/
 cp -r pm-copilots/skills/decision-engine ~/.claude/skills/
 cp -r pm-copilots/skills/financial-analyst ~/.claude/skills/
+cp -r pm-copilots/skills/roadmap-architect ~/.claude/skills/
 ```
 
 Restart Claude Code after copying skills. Use via slash commands or natural language prompts.
@@ -142,6 +178,7 @@ Restart Claude Code after copying skills. Use via slash commands or natural lang
 - **Multi-framework convergence**: The Decision Engine applies four independent frameworks and checks whether they converge — divergence surfaces genuine uncertainty
 - **Explicit assumption sourcing**: The Financial Analyst labels every model input with its source (user-provided, benchmark, estimated) — making it visible where confidence is high vs. interpolating
 - **Audience-aware generation at scale**: Five distinct communications from one input, each correct for its audience
+- **Capacity as a hard constraint, not a vibe**: The Roadmap Architect converts T-shirt sizes into person-weeks, compares to actual team capacity, and refuses to silently overcommit — overflow shows up as explicit cuts or stretch goals, never as quietly inflated scope
 
 ---
 
@@ -160,7 +197,9 @@ pm-copilots/
     │   └── SKILL.md
     ├── decision-engine/
     │   └── SKILL.md
-    └── financial-analyst/
+    ├── financial-analyst/
+    │   └── SKILL.md
+    └── roadmap-architect/
         └── SKILL.md
 ```
 
