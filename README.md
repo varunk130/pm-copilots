@@ -5,7 +5,7 @@
 [![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white)](https://claude.ai/code)
 [![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-24292e?logo=github&logoColor=white)](https://github.com/features/copilot)
 
-Three purpose-built agents that handle the grunt work so you can focus on strategy: a **Stakeholder Translator**, a **Decision Engine**, and a **Financial Analyst** — each designed to compress hours of work into seconds.
+Three purpose-built agents that handle the grunt work so you can focus on strategy: a **Stakeholder Translator**, a **Decision Engine**, and a **Financial Analyst** — each designed to compress hours of work into seconds, with consistent structure and reusable templates.
 
 
 > **⚠️ Disclaimer:** All data in this project is entirely synthetic and mock-generated for demonstration purposes. Customer names, company names, financial figures, market data, and all agent outputs are fictional. No real customer data, proprietary information, or actual business metrics were used.
