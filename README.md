@@ -51,7 +51,7 @@ One strategic question  →  4-framework analysis with synthesized recommendatio
 One feature description  →  Full financial model with sensitivity analysis and ship/no-ship decision
 ```
 
-Each agent doesn't just generate text — it applies structured reasoning: sensitivity classification, multi-framework scoring, crossover analysis, pre-mortem scenarios, and audience-specific framing tuned to the actual decision being made.
+These four agents are designed to chain — each one consumes the prior agents output and adds its own cognitive layer. Each agent doesn't just generate text — it applies structured reasoning: sensitivity classification, multi-framework scoring, crossover analysis, pre-mortem scenarios, and audience-specific framing tuned to the actual decision being made.
 
 ---
 
